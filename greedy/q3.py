@@ -1,23 +1,24 @@
 #문자열 뒤집기
 # s = input()
-# bin = list(map(int, s))
+# bin_0 = list(map(int, s))
+# bin_1 = list(map(int, s))
 
 # result_zero=0
-# for i in range(len(bin)-1):
-#     if len(set(bin))==1:
+# for i in range(len(bin_0)-1):
+#     if len(set(bin_0))==1:
 #         break
-#     if bin[i] == 0:
-#         bin[i]=1
-#         if bin[i+1] == 1:
+#     if bin_0[i] == 0:
+#         bin_0[i]=1
+#         if bin_0[i+1] == 1:
 #             result_zero+=1
 
 # result_one=0
-# for i in range(len(bin)-1):
-#     if len(set(bin))==1:
+# for i in range(len(bin_1)-1):
+#     if len(set(bin_1))==1:
 #         break
-#     if bin[i] == 1:
-#         bin[i]=0
-#         if bin[i+1] == 0:
+#     if bin_1[i] == 1:
+#         bin_1[i]=0
+#         if bin_1[i+1] == 0:
 #             result_one+=1
 
     
