@@ -11,6 +11,7 @@ def bfs(graph, start, visited):
                 queue.append(i)
                 visited[i] = True
 
+#그래프를 인접리스트로 표현, 각 노드에 인접해있는 모든 노드 번호를 넣는다. ex) 1번 노드는 2, 3, 8번과 연결되어있는것. 
 graph = [
     [],
     [2, 3, 8],
