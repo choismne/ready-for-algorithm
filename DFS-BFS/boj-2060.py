@@ -28,7 +28,7 @@ def bfs(graph, start, visited):
                 visited[i] = True
     return count
 
-print(bfs(graph, 1, visited))
+print(bfs(graph, 1, visited)-1)
 
 
 
