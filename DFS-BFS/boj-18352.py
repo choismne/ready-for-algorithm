@@ -1,3 +1,5 @@
+#특정 거리의 도시 찾기
+#그래프에서 거리까지 도입한 문제같은경우에는 bfs 쓸때 큐에 넣을때 거리 정보까지 함께 넣어서 해결해보도록하자. 
 from collections import deque
 
 n, m, k, x = map(int, input().split())
