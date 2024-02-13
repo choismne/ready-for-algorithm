@@ -1,6 +1,6 @@
 def solution(id_list, report, k):
     len_id = len(id_list)
-    report = list(set(report))
+    report = set(report)
     answer = [0]*len_id
     li = [[] for _ in range(len_id)]
     cnt = [0 for _ in range(len_id)]
