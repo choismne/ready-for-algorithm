@@ -16,6 +16,5 @@ def solution(answers):
     for i in range(3):
         if mx == count[i]:
             answer.append(i+1)
-    answer.sort()
     
     return answer
