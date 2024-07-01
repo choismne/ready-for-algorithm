@@ -8,6 +8,6 @@ class Solution {
             list.add(value);
         }
         Collections.sort(list);
-        return list.get(array.length/2);
+        return list.get(list.size()/2);
     }
 }
